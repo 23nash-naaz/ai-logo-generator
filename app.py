@@ -3,9 +3,12 @@ import google.generativeai as genai
 import json
 import re
 from typing import Dict, List
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-GEMINI_API_KEY = "AIzaSyDULxEKbBg_rnmScGwbPJQoKMTOMTALpsU"
 
 
 
