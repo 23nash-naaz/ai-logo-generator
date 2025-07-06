@@ -235,7 +235,7 @@ def display_logo_concepts(concepts: List[Dict]):
 
 def main():
     st.markdown('<div class="main-card">', unsafe_allow_html=True)
-    st.title("🧠 AI Logo Generator")
+    st.title("🧠 BrandIO")
     st.markdown("<p style='font-size:1.2rem;color:#6366f1;'>Generate unique, professional logos and brand assets with AI.</p>", unsafe_allow_html=True)
     
     # Check if API key is configured
