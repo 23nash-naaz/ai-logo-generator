@@ -11,7 +11,7 @@ GEMINI_API_KEY = "AIzaSyDULxEKbBg_rnmScGwbPJQoKMTOMTALpsU"
 
 # Configure the page
 st.set_page_config(
-    page_title="BrandIO",
+    page_title="BrandZ",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -235,7 +235,7 @@ def display_logo_concepts(concepts: List[Dict]):
 
 def main():
     st.markdown('<div class="main-card">', unsafe_allow_html=True)
-    st.title("🧠 BrandIO")
+    st.title("🧠 BrandZ")
     st.markdown("<p style='font-size:1.2rem;color:#6366f1;'>Generate unique, professional logos and brand assets with AI.</p>", unsafe_allow_html=True)
     
     # Check if API key is configured
